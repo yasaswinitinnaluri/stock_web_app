@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+    </script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/login.css" type="text/css" rel="stylesheet">
+    <div class="headings">
+        <div style="text-align: center ;color: burlywood;">
+            <h4>
+                <%= msg1 %>
+            </h4>
+        </div>
+        <h1><img src="images/logo2.jpeg">&nbsp<b>STOCK DATA</b></h1>
+        <p><i>know your stocks</i></p>
+
+
+    </div>
+    <div class="box">
+        <b style="color: red ;"><i><%= msg %></i>
+            </b>
+        <h2><b>Sign-In</b></h2>
+        <form method="post" action="/onlogin" id="loginform">
+            <p>email-id</p>
+            <input type="text" name="email" placeholder="Enter email-id" required>
+            <i class="uil uil-user"></i>
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <i class="uil uil-lock"></i>
+            <button type="submit" form="loginform" value="Submit" style="background-color: #ebebe1;margin-left: 30%;font-size: 18px;border-radius: 15%;"><a>login</a></button>
+            <div class="lastlink"></div><br>
+            <a href="signup"> New user?? Create an Account</a>
+    </div>
+
+
+    </form>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
